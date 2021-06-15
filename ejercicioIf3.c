@@ -17,11 +17,11 @@ int main()
 	if (horaLlegada<LLEGO_TEMPRANO)
 	{
 		printf("\nEl alumno llego Muy temprano\n");
-	}else if (horaLlegada>=LLEGO_TEMPRANO && horaLlegada<=LLEGO_TARDE)
+	}else if (horaLlegada>LLEGO_TARDE)
 	{
-		printf("\nEl alumno %s llego en horario\n", nombreAlumno);
-	}else{
 		printf("\nEl alumno %s llego tarde >:(\n", nombreAlumno);
+	}else{
+		printf("\nEl alumno %s llego en horario\n", nombreAlumno);
 	}
 
 
